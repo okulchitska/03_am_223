@@ -15,7 +15,7 @@ runId = Parameter("aRunId")
 
 Dim restConnector, connectionInfo, isConnected
 Set restConnector = DotNetFactory.CreateInstance("MicroFocus.Adm.Octane.Api.Core.Connector.RestConnector", "MicroFocus.Adm.Octane.Api.Core")
-Set connectionInfo = DotNetFactory.CreateInstance("MicroFocus.Adm.Octane.Api.Core.Connector.UserPassConnectionInfo", "MicroFocus.Adm.Octane.Api.Core", apiUser, apiSecret)
+Set connectionInfo = DotNetFactory.CreateInstance("MicroFocus.Adm.Octane.Api.Core.Connector.UserPassConnectionInfo", "MicroFocus.Adm.Octane.Api.Core", clientId, clientSecret)
 isConnected = restConnector.Connect(octaneUrl, connectionInfo)
 'MyMsgBox.Show  isConnected, "Is Connected"
 
