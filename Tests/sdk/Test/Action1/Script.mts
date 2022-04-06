@@ -26,7 +26,7 @@ Set entityService = DotNetFactory.CreateInstance("MicroFocus.Adm.Octane.Api.Core
 
 Dim entType, entId, entFields, entFieldsAttach
 entType = "test"
-entId = "2203"
+entId = "2193"
 entFields = Array("id", "subtype", "name", "phase", "automation_status", "source_id_udf", "author")
 entFieldsAttach = Array("id", "name")
 
