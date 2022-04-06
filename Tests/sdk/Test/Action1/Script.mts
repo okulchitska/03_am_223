@@ -3,15 +3,15 @@
 Dim MyMsgBox
 Set MyMsgBox = DotNetFactory.CreateInstance("System.Windows.Forms.MessageBox", "System.Windows.Forms")
 
-Dim apiUser, apiSecret, octaneUrl
+Dim clientId, clientSecret, octaneUrl
 Dim sharedSpaceId, workspaceId, runId
 
-apiUser = Parameter("aApiUser")
-apiSecret = Parameter("aApiSecret")
+clientId = Parameter("aClientId")
+clientSecret = Parameter("aClientSecret")
 octaneUrl = Parameter("aOctaneUrl")
 sharedSpaceId = Parameter("aOctaneSpaceId")
 workspaceId = Parameter("aOctaneWorkspaceId")
-'runId = Parameter("aRunId")
+runId = Parameter("aRunId")
 
 Dim restConnector, connectionInfo, isConnected
 Set restConnector = DotNetFactory.CreateInstance("MicroFocus.Adm.Octane.Api.Core.Connector.RestConnector", "MicroFocus.Adm.Octane.Api.Core")
