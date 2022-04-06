@@ -1,0 +1,8 @@
+<RuntimeResourceManager>
+<RuntimeResource><Key>{Step.GeneralProperties.StServiceCallActivity11.TransportProtocol.SOAPProperties.EndpointAddress}</Key><Path>0</Path><Value></Value><AddinId>StmDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.StServiceCallActivity9.TransportProtocol.SOAPProperties.EndpointAddress}</Key><Path>0</Path><Value></Value><AddinId>StmDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.StServiceCallActivity6.TransportProtocol.SOAPProperties.EndpointAddress}</Key><Path>0</Path><Value></Value><AddinId>StmDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{FlidhtInfo!Input.TablePath}</Key><Path>Local</Path><Value>FlidhtInfo\SampleAppData.xlsx</Value><AddinId>DataAwarenessDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{FlidhtInfo!Output.TablePath}</Key><Path>Local</Path><Value>FlidhtInfo\SampleAppData.xlsx</Value><AddinId>DataAwarenessDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{Step.GeneralProperties.StServiceCallActivity14.TransportProtocol.SOAPProperties.EndpointAddress}</Key><Path>0</Path><Value></Value><AddinId>StmDependencyResolver</AddinId></RuntimeResource>
+</RuntimeResourceManager>

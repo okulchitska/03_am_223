@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Owners>
+  <OwnerId>1504</OwnerId>
+  <OwnerType>TEST</OwnerType>
+  <Name><![CDATA[FlightOrder]]></Name>
+  <FSRoot><![CDATA[Test\1504\1504\1504]]></FSRoot>
+  <FSPath><![CDATA[Test\1504\1504\1504]]></FSPath>
+  <QCPath><![CDATA[Subject\Olga\FlightOrder]]></QCPath>
+  <Owner>
+    <OwnerId>1504</OwnerId>
+    <OwnerType>TEST</OwnerType>
+    <Name><![CDATA[FlightOrder]]></Name>
+    <FSRoot><![CDATA[Test\1504\1504\1504]]></FSRoot>
+    <FSPath><![CDATA[Test\1504\1504\1504]]></FSPath>
+    <QCPath><![CDATA[Subject\Olga\FlightOrder]]></QCPath>
+    <Relation>
+      <RelatedId>5214</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[FlightOrder]]></Name>
+      <FSRoot><![CDATA[Test\1504\1504\1504]]></FSRoot>
+      <FSPath><![CDATA[Test\1504\1504\1504]]></FSPath>
+      <QCPath><![CDATA[Subject\Olga\FlightOrder]]></QCPath>
+    </Relation>
+  </Owner>
+</Owners>
+

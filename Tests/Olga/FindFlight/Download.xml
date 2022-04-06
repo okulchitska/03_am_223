@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Owners>
+  <OwnerId>1503</OwnerId>
+  <OwnerType>TEST</OwnerType>
+  <Name><![CDATA[FindFlight]]></Name>
+  <FSRoot><![CDATA[Test\1503\1503\1503]]></FSRoot>
+  <FSPath><![CDATA[Test\1503\1503\1503]]></FSPath>
+  <QCPath><![CDATA[Subject\Olga\FindFlight]]></QCPath>
+  <Owner>
+    <OwnerId>1503</OwnerId>
+    <OwnerType>TEST</OwnerType>
+    <Name><![CDATA[FindFlight]]></Name>
+    <FSRoot><![CDATA[Test\1503\1503\1503]]></FSRoot>
+    <FSPath><![CDATA[Test\1503\1503\1503]]></FSPath>
+    <QCPath><![CDATA[Subject\Olga\FindFlight]]></QCPath>
+    <Relation>
+      <RelatedId>5210</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Main Test Flow]]></Name>
+      <FSRoot><![CDATA[Test\1503\1503\1503]]></FSRoot>
+      <FSPath><![CDATA[Test\1503\1503\1503]]></FSPath>
+      <QCPath><![CDATA[Subject\Olga\FindFlight]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>5211</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[TEST_Data]]></Name>
+      <FSRoot><![CDATA[Test\1503\1503\1503]]></FSRoot>
+      <FSPath><![CDATA[Test\1503\1503\1503]]></FSPath>
+      <QCPath><![CDATA[Subject\Olga\FindFlight]]></QCPath>
+    </Relation>
+    <Relation>
+      <RelatedId>5212</RelatedId>
+      <RelatedType>USER_ASSETS</RelatedType>
+      <Name><![CDATA[Action1]]></Name>
+      <FSRoot><![CDATA[Test\1503\1503\1503]]></FSRoot>
+      <FSPath><![CDATA[Test\1503\1503\1503]]></FSPath>
+      <QCPath><![CDATA[Subject\Olga\FindFlight]]></QCPath>
+    </Relation>
+  </Owner>
+</Owners>

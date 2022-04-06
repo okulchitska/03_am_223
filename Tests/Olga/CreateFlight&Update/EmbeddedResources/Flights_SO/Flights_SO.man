@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>a6e72a9d-7b76-4d70-b24c-f3528ef27e52</ID>
+  <Name>Flights_SO</Name>
+  <Type>WSDL</Type>
+  <Version>1</Version>
+  <CreationDate>2022-03-31T15:12:36.5726571+03:00</CreationDate>
+  <UpdateDate>2022-03-31T15:12:36.5726571+03:00</UpdateDate>
+  <LoaderID>SignatureResourceHandler</LoaderID>
+  <MetaDataSignatureFile>f7a35fb6-a13f-4f7d-a4ac-d34e3d0c12e6.xml</MetaDataSignatureFile>
+  <TestResourceId>f7a35fb6-a13f-4f7d-a4ac-d34e3d0c12e6</TestResourceId>
+  <RepositoryType>TestRepository</RepositoryType>
+  <SignatureCodonId>HP.ST.WebServiceWsdl</SignatureCodonId>
+  <SignatureAddinVersion>15.0.0.293</SignatureAddinVersion>
+  <Properties>
+    <Item>
+      <Key>
+        <string>RepositoryPath</string>
+      </Key>
+      <Value>
+        <string>C:\Users\okulchitska\AppData\Local\Temp\TD_80\15.50.0.0_952\7a79b275\Test\1504\1504\1504\EmbeddedResources</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>ResourceOrigin</string>
+      </Key>
+      <Value>
+        <string>C:\Users\okulchitska\AppData\Local\Temp\TD_80\15.50.0.0_952\7a79b275\Test\1504\1504\1504\EmbeddedResources\Flights_SO</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>PrototypeDbVersion</string>
+      </Key>
+      <Value>
+        <string>15.0.0.293</string>
+      </Value>
+    </Item>
+  </Properties>
+</ResourceManifest>
