@@ -1,1 +1,1 @@
-﻿RunAction "Action1", oneIteration, Parameter("ApiUser"), Parameter("ApiSecret"), Parameter("OctaneUrl"), Parameter("OctaneSpaceId"), Parameter("OctaneWorkspaceId")
+﻿RunAction "Action1", oneIteration, Parameter("clientId"), Parameter("clientSecret"), Parameter("octaneUrl"), Parameter("octaneSpaceId"), Parameter("octaneWorkspaceId")
