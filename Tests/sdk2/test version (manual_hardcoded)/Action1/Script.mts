@@ -29,7 +29,7 @@ Set entityService = DotNetFactory.CreateInstance("MicroFocus.Adm.Octane.Api.Core
 Dim entType, entId, entFields', entFieldsAttach
 entType = "test_version"
 entId = "2299"
-entFields = Array("id", "script")
+entFields = Array("id")', "script")
 'entFieldsAttach = Array("id", "name")
 
 
@@ -60,8 +60,8 @@ Set testVersion = entityService.GetById(context, entType, entId, entFields)
 Set FSO = CreateObject("Scripting.FileSystemObject")
 Set outFile = FSO.CreateTextFile("C:\Downloads\test script.txt",True)
 'outFile.WriteLine "Test Type: " + test.Subtype
-'outFile.WriteLine vbCrLf & "Octane ID: " + test.Id
-outFile.WriteLine "Script: " + testVersion.GetValue("script")
+outFile.WriteLine vbCrLf & "test_version ID: " + testVersion.Id
+'outFile.WriteLine "Script: " + testVersion.GetValue("script")
 'outFile.WriteLine "ALM QC ID: " + test.GetValue ("source_id_udf")
 'outFile.WriteLine "Phase: " + test.Phase.Id
 'outFile.WriteLine "Automated Status: " + test.GetValue("automation_status").Id

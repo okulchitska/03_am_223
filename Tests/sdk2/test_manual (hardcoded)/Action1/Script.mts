@@ -56,7 +56,7 @@ Next
 Dim test, FSO, outfile
 Set test = entityService.GetById(context, entType, entId, entFields)
 Set FSO = CreateObject("Scripting.FileSystemObject")
-Set outFile = FSO.CreateTextFile("C:\Downloads\MyFile_TestEntity.txt",True)
+Set outFile = FSO.CreateTextFile("C:\Downloads\test_manual (hardcoded).txt",True)
 'outFile.Write "ID: " + test.Id + ", Test Type: " + test.Subtype
 outFile.WriteLine "Test Type: " + test.Subtype
 outFile.WriteLine vbCrLf & "Octane ID: " + test.Id
