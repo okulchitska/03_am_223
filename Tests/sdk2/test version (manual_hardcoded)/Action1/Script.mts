@@ -4,7 +4,7 @@
 'Set MyMsgBox = DotNetFactory.CreateInstance("System.Windows.Forms.MessageBox", "System.Windows.Forms")
 
 Dim clientId, clientSecret, octaneUrl
-Dim sharedSpaceId, workspaceId, runId
+Dim sharedSpaceId, workspaceId, runId, suiteId, suiteRunId
 
 clientId = Parameter("aClientId")
 clientSecret = Parameter("aClientSecret")
@@ -12,7 +12,7 @@ octaneUrl = Parameter("aOctaneUrl")
 sharedSpaceId = Parameter("aOctaneSpaceId")
 workspaceId = Parameter("aOctaneWorkspaceId")
 'runId = Parameter("aRunId")
-'suiteId = Parameter("aSuiteId")
+suiteId = Parameter("aSuiteId")
 'suiteRunId = Parameter("aSuiteRunId")
 
 Dim restConnector, connectionInfo, isConnected
@@ -29,7 +29,7 @@ Set entityService = DotNetFactory.CreateInstance("MicroFocus.Adm.Octane.Api.Core
 Dim entType, entId, entFields', entFieldsAttach
 entType = "test_version"
 entId = "2299"
-entFields = Array("id")', "script")
+entFields = Array("id", "script")
 'entFieldsAttach = Array("id", "name")
 
 
@@ -61,7 +61,7 @@ Set FSO = CreateObject("Scripting.FileSystemObject")
 Set outFile = FSO.CreateTextFile("C:\Downloads\test script.txt",True)
 'outFile.WriteLine "Test Type: " + test.Subtype
 outFile.WriteLine vbCrLf & "test_version ID: " + testVersion.Id
-'outFile.WriteLine "Script: " + testVersion.GetValue("script")
+outFile.WriteLine "Script: " + testVersion.GetValue("script").Value
 'outFile.WriteLine "ALM QC ID: " + test.GetValue ("source_id_udf")
 'outFile.WriteLine "Phase: " + test.Phase.Id
 'outFile.WriteLine "Automated Status: " + test.GetValue("automation_status").Id
